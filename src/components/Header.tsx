@@ -26,12 +26,12 @@ export default function Header() {
 
       {/* Right: CTA Button */}
       <div>
-        <a
+        <Link
           href="/contact"
           className="bg-accent px-4 py-2 rounded-full text-white text-sm hover:opacity-90 transition"
         >
           Book a Session
-        </a>
+        </Link>
       </div>
       <link
         rel="stylesheet"

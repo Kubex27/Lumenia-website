@@ -22,21 +22,21 @@ export default function About() {
               About LUMENIA
             </h1>
             <p className="text-lg text-justify leading-relaxed">
-              LUMENIA is more than just a name—it's an awakening, a vibration,
+              LUMENIA is more than just a name—it&apos; s an awakening, a vibration,
               and a portal to your truest self. Rooted in ancient mysticism and
               guided by intuitive wisdom, LUMENIA offers a sacred space for
-              those seeking to connect deeper with their soul’s calling.
+              those seeking to connect deeper with their soul&apos; s calling.
               <br />
               <br />
               In a world that often pulls us away from our center, we provide a
               gentle yet powerful invitation to return inward—to the stillness,
-              the stars, and the sacred sound of your soul’s truth.
+              the stars, and the sacred sound of your soul&apos; s truth.
             </p>
 
             <hr className="border-pink-300" />
 
             <p className="text-lg text-justify leading-relaxed">
-              🌌 <strong>Our Services</strong>: Whether you're exploring Tarot,
+              🌌 <strong>Our Services</strong>: Whether you&apos;re exploring Tarot,
               diving into your Astrological blueprint, or resting in the healing
               frequencies of Sound, each experience is curated with deep
               presence and cosmic care.
@@ -48,7 +48,7 @@ export default function About() {
                 archetypal insights
               </li>
               <li>
-                <strong>Astrology Consultations:</strong> Map your soul’s
+                <strong>Astrology Consultations:</strong> Map your soul&apos;s
                 purpose
               </li>
               <li>

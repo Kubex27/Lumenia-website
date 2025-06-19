@@ -1,7 +1,8 @@
 // components/ServicesSection.tsx
 
 import Link from "next/link";
-import { Sparkles, Star, Moon } from "lucide-react"; // lucide-react icons
+import { Sparkles, Star, Moon } from "lucide-react";
+import Image from "next/image";
 
 const services = [
   {
@@ -60,10 +61,11 @@ export default function ServicesSection() {
       <section className="py-24 px-6 bg-gradient-to-b from-white to-pink-50 text-center">
         <div className="max-w-4xl mx-auto flex flex-col items-center">
           <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-pink-300 shadow-lg mb-6">
-            <img
+            <Image
               src="/coach.jpg"
               alt="Coach"
-              className="w-full h-full object-cover"
+              height={400}
+              width={400}
             />
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">

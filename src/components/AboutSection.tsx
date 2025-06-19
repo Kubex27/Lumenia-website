@@ -8,7 +8,7 @@ export default function AboutSection() {
         <p className="text-lg text-gray-700 leading-relaxed font-lora animate-fade-in">
           LUMENIA is a sacred space where intuition meets transformation. 
           Through Tarot, Astrology, and Sound Healing, we help you align with your true self and awaken your inner wisdom.
-          Whether you're seeking clarity, healing, or spiritual growth, our guidance is here to illuminate your path.
+          Whether you&apos;re seeking clarity, healing, or spiritual growth, our guidance is here to illuminate your path.
         </p>
       </div>
     </section>

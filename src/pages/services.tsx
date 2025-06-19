@@ -25,6 +25,7 @@ export default function Services() {
                 width={160}
                 height={160}
                 className="object-cover w-full h-full"
+                unoptimized
               />
             </div>
             <h3 className="text-xl font-cinzel text-pink-600 mb-2">
@@ -49,6 +50,7 @@ export default function Services() {
                 alt="Astrology"
                 width={160}
                 height={160}
+                unoptimized
                 className="object-cover w-full h-full"
               />
             </div>
@@ -56,7 +58,7 @@ export default function Services() {
               Astrology Consultation
             </h3>
             <p className="text-gray-600 font-lora mb-4">
-              Unlock your soul’s star map.
+              Unlock your soul&apos;s star map.
             </p>
             <Link
               href="/contact"
@@ -74,6 +76,7 @@ export default function Services() {
                 alt="Sound Healing"
                 width={160}
                 height={160}
+                unoptimized
                 className="object-cover w-full h-full"
               />
             </div>

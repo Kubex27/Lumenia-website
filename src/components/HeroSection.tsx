@@ -1,11 +1,12 @@
-'use client';
+"use client";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/autoplay';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/autoplay";
+import Image from "next/image";
 
-import HeroText from './HeroText';
+import HeroText from "./HeroText";
 
 const slides = [
   "/carousel1.jpg",
@@ -28,11 +29,15 @@ export default function HeroSection() {
       >
         {slides.map((src, idx) => (
           <SwiperSlide key={idx}>
-            <img
-              src={src}
-              alt={`Slide ${idx}`}
-              className="w-full h-screen object-cover opacity-30"
-            />
+            <div className="relative w-full h-screen">
+              <Image
+                src={src}
+                alt={`Slide ${idx}`}
+                fill
+                className="object-cover opacity-30"
+                priority
+              />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
